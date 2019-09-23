@@ -66,7 +66,9 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 -- INSERT INTO people (name) VALUES
 -- ('Bart Simpson');
 
-DELETE FROM people WHERE name = 'Eric Cartman';
+-- DELETE FROM people WHERE name = 'Eric Cartman';
 
+INSERT INTO movies (title, show_time) VALUES
+('Avengers: Infinity War', '24:00');
 SELECT * FROM movies;
 SELECT * FROM people;
